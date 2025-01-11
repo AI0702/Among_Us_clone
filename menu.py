@@ -8,7 +8,7 @@ from pygame import mixer
 #player_colour = None
 
 
-pg.mixer.init()
+pg.mixer.quit()
 class MenuCursor(Drawable, pg.sprite.Sprite):
 
     def __init__(self, game, x, y, width=20, height=20):
